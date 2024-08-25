@@ -1,0 +1,45 @@
+.app__wrapper_info-quote {
+  display: flex;
+  margin: 0 0 50px 0;
+}
+.app__wrapper_info-quote img {
+  width: 47px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+}
+.app__wrapper_info-quote p {
+  color: var(--color-grey);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+}
+.app__chef_info {
+  margin-bottom: 50px;
+}
+
+.app__chef_info .chef_name {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 32px;
+}
+.app__chef_info .chef_designation {
+  font-size: 16px;
+  color: var(--color-grey);
+}
+.chef_sign {
+  width: 235px;
+  height: 83px;
+  gap: 0px;
+  opacity: 0px;
+}
+@media screen and (max-width: 2000px) {
+  .chef_sign {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .chef_sign {
+    width: 80%;
+  }
+}

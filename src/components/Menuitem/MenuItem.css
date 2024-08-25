@@ -1,0 +1,14 @@
+.app__menuItem-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.app__menuItem-head_title-dash {
+  width: 90px;
+  height: 1px;
+  margin: 0 1rem;
+  background: var(--color-white);
+}
+.app__menuItem {
+  margin-bottom: 1rem;
+}
