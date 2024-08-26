@@ -10,7 +10,7 @@ const Newsletter = () => (
       <p className="p__opensans">And never miss any updates!</p>
     </div>
     <div className="app__newsletter-input flex__center">
-      <input type="email" placeholder="give your email address" />
+      <input type="email" placeholder="email address" />
       <button className="custom__button">Subscribe</button>
     </div>
   </div>
