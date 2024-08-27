@@ -22,9 +22,9 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
-
-      <img src={images.menu} alt="cocktail glass" />
-
+      <div className="app__wrapper_img">
+        <img src={images.menu} alt="cocktail glass" />
+      </div>
       <div className="app__specialMenu-content">
         <p className="app__specialMenu-content_title">Cocktails</p>
         <div className="app__specialMenu-content_listItems">
